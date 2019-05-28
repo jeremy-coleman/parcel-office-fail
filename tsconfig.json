@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "declaration": true,
+      "sourceMap": false,
+      "experimentalDecorators": true,
+      "jsx": "react",
+      "lib": ["dom","dom.iterable","esnext"],
+      "module": "esnext",
+      "moduleResolution": "node",
+      "pretty": true,
+      "skipLibCheck": true,
+      "target": "es2018",
+      "baseUrl":"./src",
+      "typeRoots": ["./node_modules/@types"],
+      "importHelpers":true
+  },
+  "include":[
+      "./src",
+      "./globals.d.ts"
+  ],
+  "exclude": ["node_modules"]
+}
